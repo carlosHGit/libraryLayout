@@ -2,3 +2,46 @@
   margin: 0;
   padding: 0;
 }
+
+#main-section{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#novedades{
+/* background-color: #ccc; */
+width: 60%;
+padding:10px;
+}
+
+#vendidos{
+  /* background-color:aquamarine; */
+  width: 40%;
+  padding:10px;
+}
+
+
+#books-container{
+  background-color: cadetblue;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#sellers{
+  background-color: burlywood;
+  height: 100vh;
+}
+
+.item{
+  width: 90px;
+  height: 90px;
+  background-color: brown;
+  margin: 20px;
+
+}
